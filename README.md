@@ -16,9 +16,9 @@ AWS Bedrock Agent 기반 제조 설비 고장 예측 및 자율 정비 권고 �
 
 | 이름 | 역할 | 담당 |
 |------|------|------|
-| 허소영 | 클라우드 인프라 | AWS 리소스 구성, Lambda(sensor_read / calculator / range_check / dynamo_save), Bedrock Agent 배포·운영 |
-| 임수희 | AI/ML | 데이터 전처리, Knowledge Base 구축, Bedrock Agent Instruction 설계 |
-| 손재우 | 프론트엔드 | 웹 대시보드, Lambda(inventory_check / create_order / dashboard_data / refresh) |
+| 팀원 A | 클라우드 인프라 | AWS 리소스 구성, Lambda(sensor_read / calculator / range_check / dynamo_save), Bedrock Agent 배포·운영 |
+| itm-2 (본인) | AI/ML | 데이터 전처리, Knowledge Base 구축, Bedrock Agent Instruction 설계 |
+| 팀원 B | 프론트엔드 | 웹 대시보드, Lambda(inventory_check / create_order / dashboard_data / refresh) |
 
 ### 프로젝트 목표
 
@@ -249,21 +249,6 @@ AWS Bedrock Agent 기반 제조 설비 고장 예측 및 자율 정비 권고 �
 ## 브랜치 전략
 
 - `main`: 최종 완성본
-- `soyoung`: 허소영
-- `suhee`: 임수희
-- `jaewoo`: 손재우
-- `agent`: Agentic 아키텍처 전환 작업 브랜치
-
-## 시작하기
-
-```bash
-cp .env.example .env
-# .env에 값 입력 후 개발 시작
-```
-
-## 주의사항
-
-- `.env` 파일 절대 커밋 금지
 
 ## 참고 자료
 
